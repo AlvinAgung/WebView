@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                webView.loadUrl(edit.getText().toString());
+                webView.loadUrl("http://"+edit.getText().toString());
 
 
             }
